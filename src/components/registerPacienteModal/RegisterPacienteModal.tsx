@@ -112,7 +112,7 @@ export default function RegisterPacienteModal({
           id='modal-content'
           className='form-box'
           sx={{ mt: 2 }}
-          onSubmit={(event) => {
+          onSubmit={(event: React.SyntheticEvent) => {
             event?.preventDefault();
             close(false);
 

@@ -30,6 +30,7 @@ export default function DialogConfirmation({
       onClose={() => close(false)}
       aria-labelledby='alert-dialog-title'
       aria-describedby='alert-dialog-description'
+      sx={{padding: '2rem'}}
     >
       <DialogTitle id='alert-dialog-title'>{dialogTitle}</DialogTitle>
 
